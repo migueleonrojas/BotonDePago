@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="../styles/LoginStyle.css">
+        <link href="http://fonts.cdnfonts.com/css/effra-heavy" rel="stylesheet">
+        
+
+        <title>Boton de Pago de Digo</title>
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    </head>
+
+   
+
+    <body>
+
+        
+
+
+        <div class="iframe">
+
+            <div class="zonaSuperior">
+                
+                <div class="logo">
+                    <img src="../media/images/logoDigoPago.jpg" width="70" height="70">
+                </div>
+                
+                <div class="cerrar">
+                    <img src="../media/images/botonCerrar.jpg"  width="30" height="30">
+                </div>
+            </div>
+
+            <div class="zonaDeProgreso">
+                
+                <div class="numeros">
+
+
+                    <svg class="numeroUno">
+                        <circle cx="50%" cy="50%" r="15" stroke="rgb(22, 26, 130)" stroke-width="1" fill="rgb(148, 201, 23)" />
+                        <text class="texto" font-size="18" font-family="'Effra', sans-serif" x="50%" y="50%" alignment-baseline="middle" text-anchor="middle" fill="rgb(255,255,255)">1</text>
+                        <line x1="70%" y1="50%" x2="100%" y2="50%" style="stroke:rgb(58, 76, 85);"></line>
+                    </svg>
+                    <svg class="numeroDos">
+                        <line x1="0%" y1="50%" x2="30%" y2="50%" style="stroke:rgb(58, 76, 85);"></line>
+                        <circle cx="50%" cy="50%" r="15" stroke="rgb(27, 213, 43)" stroke-width="1" fill="rgb(255, 255, 255)" />
+                        <text class="texto" font-size="18" font-family="'Effra', sans-serif" x="50%" y="50%" alignment-baseline="middle" text-anchor="middle" fill="rgb(22, 26, 130)">2</text>
+                        <line x1="70%" y1="50%" x2="100%" y2="50%" style="stroke:rgb(58, 76, 85);"></line>
+                    </svg>
+                    <svg class="numeroTres">
+                        <line x1="0%" y1="50%" x2="30%" y2="50%" style="stroke:rgb(58, 76, 85);"></line>
+                        <circle cx="50%" cy="50%" r="15" stroke="rgb(27, 213, 43)" stroke-width="1" fill="rgb(255, 255, 255)" />
+                        <text class="texto" font-size="18" font-family="'Effra', sans-serif" x="50%" y="50%" alignment-baseline="middle" text-anchor="middle" fill="rgb(22, 26, 130)">3</text>
+                        
+                    </svg>
+                    
+                </div>
+               
+
+                <div class="validacion">
+                    <p class="mensajeDeValidacion">Usuario no existe. Presione Enter para continuar</p>
+                </div>
+            </div>
+
+            <div class="zonaInferior">
+                
+                <div class="zonaInferiorIzquierda">
+                    <div class="contenedorIzquierdo">
+                        <div class="usuario">
+                            <label for="usuarioLabel">Usuario:</label>
+                            <input type="text" id="usuarioInput" name="usuarioInput" maxlength="20">
+                        </div>    
+
+                        <div class="referencia">
+                            <p class="p-referencia">Referencia Proveedor:</p>
+                            <p class="referencia">3568990</p>
+                        </div>
+
+                        <div class="monto">
+                            <p class="p-monto">Monto a pagar:</p>
+                            <p class="monto">Bs. S 12.800,50</p>
+                        </div>
+                    </div>
+                </div>    
+
+                <div class="zonaInferiorDerecha">
+                    <div class="contenedorDerecho">
+                        <div class="clave">
+                            <label for="claveLabel">Contraseña:</label>
+                            <input type="password" id="claveInput" name="claveInput" maxlength="20">
+                        </div>
+
+
+                        <div class="g-recaptcha" data-sitekey="6LfbB00bAAAAAIUSR-gwFJkD635HtpZL9tiiFW6Z">
+                        </div>
+
+                        <div class="pagar">
+                            <button class="pagar" type="button">Pagar</button>                    
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+        <script>
+
+        </script>
+
+    </body>
+
+
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="http://fonts.cdnfonts.com/css/effra-heavy" rel="stylesheet">
+        <link rel="stylesheet" href="../styles/TokenStyle.css">
+
+        <title>Boton de Pago de Digo</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        
+  </head>
+
+   
+
+    <body>
+
+        
+
+
+        <div class="iframe">
+
+            <div class="zonaSuperior">
+                
+                <div class="logo">
+                    <img src="../media/images/logoDigoPago.jpg" width="70" height="70">
+                </div>
+                
+                <div class="cerrar">
+                    <img src="../media/images/botonCerrar.jpg"  width="30" height="30">
+                </div>
+            </div>
+
+            <div class="zonaDeProgreso">
+                
+                <div class="numeros">
+
+
+                    <svg class="numeroUno">
+                        <circle cx="50%" cy="50%" r="15" stroke="rgb(27, 213, 43)" stroke-width="1" fill="rgb(255, 255, 255)" />
+                        <text class="texto" font-size="18" font-family="'Effra', sans-serif" x="50%" y="50%" alignment-baseline="middle" text-anchor="middle" fill="rgb(22, 26, 130)">1</text>
+                        <line x1="70%" y1="50%" x2="100%" y2="50%" style="stroke:rgb(58, 76, 85);"></line>
+                    </svg>
+                    <svg class="numeroDos">
+                        <line x1="0%" y1="50%" x2="30%" y2="50%" style="stroke:rgb(58, 76, 85);"></line>
+                        <circle cx="50%" cy="50%" r="15" stroke="rgb(22, 26, 130)" stroke-width="1" fill="rgb(148, 201, 23)" />
+                        <text class="texto" font-size="18" font-family="'Effra', sans-serif" x="50%" y="50%" alignment-baseline="middle" text-anchor="middle" fill="rgb(255,255,255)">2</text>
+                        <line x1="70%" y1="50%" x2="100%" y2="50%" style="stroke:rgb(58, 76, 85);"></line>
+                    </svg>
+                    <svg class="numeroTres">
+                        <line x1="0%" y1="50%" x2="30%" y2="50%" style="stroke:rgb(58, 76, 85);"></line>
+                        <circle cx="50%" cy="50%" r="15" stroke="rgb(27, 213, 43)" stroke-width="1" fill="rgb(255, 255, 255)" />
+                        <text class="texto" font-size="18" font-family="'Effra', sans-serif" x="50%" y="50%" alignment-baseline="middle" text-anchor="middle" fill="rgb(22, 26, 130)">3</text>
+                        
+                    </svg>
+                    
+                </div>
+               
+            </div>
+
+            <div class="zonaInferior">
+
+
+                <div class="saludo" style="font-family: 'Effra', sans-serif;">
+                    <p>Hola: <span class="nombre">Pedro Martinez</span></p>
+                </div>
+
+                <div class="instrucciones" style="font-family: 'Effra', sans-serif;">
+                    <p>Indique el token de seguridad enviado: email y SMS para que confirme su operacion</p>
+                </div>
+
+                <div class="token">
+                    <label for="tokenLabel" style="font-family: 'Effra', sans-serif;">Token:</label>
+                    <input type="text" id="tokenInput" name="tokenInput" maxlength="20" style="font-family: 'Effra', sans-serif;">
+                </div>
+
+                <div class="validacion">
+                    <p class="mensajeDeValidacion" style="font-family: 'Effra', sans-serif;">El token es invalido</p>
+                </div>
+
+                <div class="botonera">
+                    <div class="contenedorBotonCancelar">
+                        <button class="cancelar" type="button" style="font-family: 'Effra', sans-serif;">Cancelar</button>
+                    </div>
+                    <div class="contenedorBotonConfirmar">
+                        <button class="confirmar" type="button" style="font-family: 'Effra', sans-serif;">Confirmar</button>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+        <script>
+
+        </script>
+
+    </body>
+
+
+</html>

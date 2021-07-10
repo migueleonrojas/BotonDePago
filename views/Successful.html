@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="http://fonts.cdnfonts.com/css/effra-heavy" rel="stylesheet">
+        <link rel="stylesheet" href="../styles/SuccessfulStyle.css">
+
+        <title>Boton de Pago de Digo</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        
+  </head>
+
+   
+
+    <body>
+
+        
+
+
+        <div class="iframe">
+
+            <div class="zonaSuperior">
+                
+                <div class="logo">
+                    <img src="../media/images/logoDigoPago.jpg" width="70" height="70">
+                </div>
+                
+                <div class="cerrar">
+                    <img src="../media/images/botonCerrar.jpg"  width="30" height="30">
+                </div>
+            </div>
+
+            <div class="zonaDeProgreso">
+                
+                <div class="numeros">
+
+
+                    <svg class="numeroUno">
+                        <circle cx="50%" cy="50%" r="15" stroke="rgb(27, 213, 43)" stroke-width="1" fill="rgb(255, 255, 255)" />
+                        <text class="texto" font-size="18" font-family="'Effra', sans-serif" x="50%" y="50%" alignment-baseline="middle" text-anchor="middle" fill="rgb(22, 26, 130)">1</text>
+                        <line x1="70%" y1="50%" x2="100%" y2="50%" style="stroke:rgb(58, 76, 85);"></line>
+                    </svg>
+                    <svg class="numeroDos">
+                        <line x1="0%" y1="50%" x2="30%" y2="50%" style="stroke:rgb(58, 76, 85);"></line>
+                        <circle cx="50%" cy="50%" r="15" stroke="rgb(27, 213, 43)" stroke-width="1" fill="rgb(255, 255, 255)" />
+                        <text class="texto" font-size="18" font-family="'Effra', sans-serif" x="50%" y="50%" alignment-baseline="middle" text-anchor="middle" fill="rgb(22,26,130)">2</text>
+                        <line x1="70%" y1="50%" x2="100%" y2="50%" style="stroke:rgb(58, 76, 85);"></line>
+                    </svg>
+                    <svg class="numeroTres">
+                        <line x1="0%" y1="50%" x2="30%" y2="50%" style="stroke:rgb(58, 76, 85);"></line>
+                        <circle cx="50%" cy="50%" r="15" stroke="rgb(22, 26, 130)" stroke-width="1" fill="rgb(148, 201, 23)" />
+                        <text class="texto" font-size="18" font-family="'Effra', sans-serif" x="50%" y="50%" alignment-baseline="middle" text-anchor="middle" fill="rgb(255, 255, 255)">3</text>
+                        
+                    </svg>
+                    
+                </div>
+               
+            </div>
+
+            <div class="zonaInferior">
+
+
+                <div class="notificacion" style="font-family: 'Effra', sans-serif;">
+                    <p style="margin-bottom:0;">Pago realizado por: <span class="nombre">Pedro Martinez</span></p>
+                </div>
+                
+                <div class="datosDeLaTransaccion">
+                    <div class="zonaIzquierda">
+
+                        <div class="contenedorInternoZonaIzquierda">
+                            <div class="contenedorDelTelefonoEmisor">
+                                <label for="telefonoEmisorLabel" style="font-family: 'Effra', sans-serif;">Teléfono Emisor:</label>
+                                <p class="telefonoEmisorNumero" style="font-family: 'Effra', sans-serif; text-decoration: underline;" >0412-2921524</p>
+                            </div>
+
+                            <div class="contenedorNroDeMovimientoDigo">
+                                <label for="NroDeMovimientoDigoLabel" style="font-family: 'Effra', sans-serif;">Nro. De Movimiento Digo:</label>
+                                <p class="NroDeMovimientoDigo" style="font-family: 'Effra', sans-serif;">66784580</p>
+                            </div>
+
+                            <div class="contenedorReferenciaDelProveedor">
+                                <label for="ReferenciaDelProveedorLabel" style="font-family: 'Effra', sans-serif;">Referencia del Proveedor:</label>
+                                <p class="ReferenciaDelProveedor" style="font-family: 'Effra', sans-serif;">3568990</p>
+                            </div>
+
+                            <div class="contenedorMontoPagadoEnBS">
+                                <label for="MontoPagadoEnBSLabel" style="font-family: 'Effra', sans-serif;">Monto pagado Bs. S:</label>
+                                <p class="MontoPagadoEnBS" style="font-family: 'Effra', sans-serif;">12.850,50</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="zonaDerecha">
+
+                        <div class="contenedorInternoZonaDerecha">
+                            <div class="contenedorTelefonoReceptor">
+                                <label for="TelefonoReceptorLabel" style="font-family: 'Effra', sans-serif;">Telefono Receptor:</label>
+                                <p class="TelefonoReceptor" style="font-family: 'Effra', sans-serif; text-decoration: underline;">0424-2926122</p>
+                            </div>
+
+                            <div class="contenedorFecha">
+                                <label for="FechaLabel" style="font-family: 'Effra', sans-serif;">Fecha:</label>
+                                <p class="Fecha" style="font-family: 'Effra', sans-serif;">22-02-2021</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="contenedorNotificacionYFinalizar">
+                    <div class="contenedornotificacionEmail">
+                        <p class="notificacionEmail" style="font-family: 'Effra', sans-serif;font-size: 12px;">Se envió su pago vía: <span>SMS / Email</span></p>
+                    </div>
+                    <div class="contenedorfinalizar">
+                        <button class="finalizar" type="button" style="font-family: 'Effra', sans-serif;">Finalizar</button>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+        <script>
+
+        </script>
+
+    </body>
+
+
+</html>

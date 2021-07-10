@@ -1,0 +1,167 @@
+
+            .iframe{
+                width: 400px;
+                height: 370px;
+                margin:auto; 
+                border: 4px solid rgb(36, 41, 189);
+                border-radius: 50px;
+                
+            }
+
+            .zonaSuperior{
+                
+                width: 100%;
+                display: flex;
+            }
+
+            .logo{
+                display: flex;
+                width: 60%;
+                
+                text-align: right;
+            }
+            .logo img{
+                margin-left: auto;
+                
+            }
+
+            .cerrar{
+               
+                width: 40%;
+                
+                display: flex;
+            
+            }
+
+            .cerrar img{
+               
+               margin: 10px 25px auto auto ;
+            }
+
+            .zonaDeProgreso{
+                
+                
+            }
+
+            .numeros{
+                display: flex;
+                height: 50px;
+                width: 60%;
+                margin: auto;
+                line-height: 0;
+                font-size: 0;
+                
+                
+            }
+
+
+            .validacion{
+                margin: 20px auto;
+                background-color: rgb(255, 0, 0);
+                width: 60%;
+                text-align: center;
+                color: rgb(255, 255, 255);
+                display: block;
+            }
+
+            .validacion p {
+                margin: 5px;
+                font-family: 'Effra', sans-serif;
+            }
+
+            .zonaInferior{
+                
+               
+            }
+
+            .notificacion{
+                width: 90%;
+                text-align:left;
+                margin-bottom: 15px;
+                margin: auto;
+            }
+            
+            .datosDeLaTransaccion{
+                display: flex;
+                border: 1px solid rgb(36, 41, 189);
+                margin: 15px 1px;
+            }
+
+            .datosDeLaTransaccion label, .datosDeLaTransaccion p{
+                font-size: 12px;
+                
+            }
+
+            
+            
+            .zonaIzquierda{
+                padding: 2px;
+                width: 50%;
+                display: flex;
+            }
+
+            .contenedorInternoZonaIzquierda{
+                margin: auto;
+                
+            }
+            
+            .contenedorInternoZonaIzquierda>div{
+                display: flex;
+            }
+
+
+            .zonaDerecha{
+                padding: 2px;
+                width: 50%;
+                display: flex;
+            }
+           
+            .contenedorInternoZonaDerecha{
+                margin: 0px auto auto auto;
+                
+            }
+
+            .contenedorInternoZonaDerecha>div{
+                display: flex;
+            }
+
+            .contenedorNotificacionYFinalizar{
+                display: flex;
+                margin: 25px 1px;
+                height: 30px;
+            }
+
+            .contenedornotificacionEmail{
+                display: flex;
+                width: 50%;
+                
+                
+            }
+
+            .contenedornotificacionEmail p{
+                margin: auto;
+            }
+
+
+            .contenedorfinalizar{
+                display: flex;
+                width: 50%;
+                
+            }
+
+            .contenedorfinalizar button{
+                margin: auto 30px auto auto;
+                border: none;
+                background-color: rgb(44, 189, 36);
+                padding: 5px 12px;
+                border-radius: 5px;
+                color: rgb(255,255,255);
+            }
+            
+            @media only screen and (max-width:420px) {
+
+                
+                
+            }
+
+        
